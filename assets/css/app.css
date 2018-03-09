@@ -1,4 +1,22 @@
 button.button {
     margin-bottom: 5px !important;
-    min-width: 210px;
+    width: 100%;
+}
+
+.ui.card {
+	width: 100%;
+}
+
+.ui.grid+.grid {
+	margin-top: 0;
+}
+
+.site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.content {
+	flex: 1;
 }
