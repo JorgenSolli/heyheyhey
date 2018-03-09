@@ -20,3 +20,7 @@ button.button {
 .content {
 	flex: 1;
 }
+
+.ui.menu {
+	border-radius: 0;
+}
